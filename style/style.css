@@ -889,7 +889,7 @@
 }
 .contact-container {
   width: 100%;
-  padding: calc((0 / 16) * 1rem) calc((150 / 16) * 1rem) calc((0 / 16) * 1rem) calc((24 / 16) * 1rem);
+  padding: calc((0 / 16) * 1rem) calc((87 / 16) * 1rem) calc((0 / 16) * 1rem) calc((87 / 16) * 1rem);
 }
 .contact-subtitle {
   font-family: 'Yu-gotic-light';
@@ -951,6 +951,9 @@
   margin-top: calc((25 / 16) * 1rem);
   margin-left: calc((133 / 16) * 1rem);
   letter-spacing: calc((2 / 16) * 1rem);
+}
+.map {
+  border: 0.1rem solid black;
 }
 .portfolio-content {
   display: none;

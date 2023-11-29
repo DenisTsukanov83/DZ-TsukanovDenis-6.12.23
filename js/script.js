@@ -272,7 +272,9 @@ $(document).ready(function () {
         DG.then(function () {
             map = DG.map('map', {
                 center: [51.493775, 46.109466],
-                zoom: 20
+                zoom: 20,
+                zoomControl: false,
+                fullscreenControl: false
             });
 
             DG.marker([51.493775, 46.109466]).addTo(map).bindPopup('Вход со двора, 6 подъезд')
@@ -281,5 +283,5 @@ $(document).ready(function () {
     let btnMap = document.querySelector('.li-6');
     btnMap.onclick = createMap;
     let btnAsideMap = document.querySelector('.aside-menu-item-6');
-    btnAsideMap.onclick = createMap;
+    btnAsideMap.onclick = createMap
 });
